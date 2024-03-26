@@ -1,8 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Barriecito&family=Rubik+Glitch+Pop&display=swap');
-
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 :root {
     --cor-de-fundo: #161618;
@@ -17,7 +13,8 @@
 body {
   background-color: var(--cor-de-fundo);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
   color: var(--branco);
-  font-family: 'Chakra Petch', sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
 }
 
 .conteudo-principal{
@@ -33,7 +30,7 @@ body {
 .titulo-principal{
   text-align: left;
   width: 100%;
-  font-size: 32px;
+  font-size: 36px;
 }
 
 .titlo-principal-span{
@@ -41,12 +38,13 @@ body {
 }
 
 .botao{
+  font-family: "Dancing Script", cursive;
   background-color: var(--botao-inativo);
   color: var(--branco);
   display: flex;
   justify-content: center;
   padding: 1em;
-  font-size: 18px;
+  font-size: 22px;
   align-items: center;
   width: 100%;
   border-bottom: 4px solid var(--botao-ativo);
